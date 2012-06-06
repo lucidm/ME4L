@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="navicons">
+    <file>Icons/application-exit.png</file>
+    <file>Icons/go-down.png</file>
+    <file>Icons/go-next.png</file>
+    <file>Icons/go-previous.png</file>
+    <file>Icons/go-up.png</file>
+  </qresource>
+</RCC>
