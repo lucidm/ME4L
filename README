@@ -2,10 +2,16 @@ Aplikacja klienta mobilnego robota mobot explorer A1 firmy mobot.pl.
 
 Zastępuje domyślną dostarczaną przez firmę platormę działającą tylko pod Windows
 klientem napisanym w pythonie nadającym się do uruchomienia w Linuksie.
+Platforma mobilna składa się z płytki mikrokontrolera AVR Atmega128 z dwoma mostkami
+MC33887, układem zasilania i ładowania akumulatorów żelowych zasilających platformę.
+Trzema sonarowymi czujnikami mierzącymi odległość, radiowym modułem komunikacyjnym z
+portem szeregowym, pracującym w paśmie 868Mhz na USB oraz z interfejsem szeregowym dla
+sterownika platformy.
+
 
 
 Mobot Explorer A1
-http://mobot.pl/index.php?site=products&type=855&details=7998
+    http://mobot.pl/index.php?site=products&type=855&details=7998
 
 Moduł radiowy do komunikacji z robotem:
     W postaci dongla USB:
@@ -13,6 +19,12 @@ Moduł radiowy do komunikacji z robotem:
 
     Dla robota:
 	http://mobot.pl/index.php?site=products&type=853&details=7771
+
+Sonarowy czujnik odległości:
+    http://mobot.pl/index.php?site=products&type=854&details=7766
+
+Płytka sterownika platformy robota:
+    http://mobot.pl/index.php?site=products&type=853&details=8049
 
 Framework QT:
     http://qt.nokia.com/
