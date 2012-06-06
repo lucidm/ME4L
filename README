@@ -1,0 +1,18 @@
+Aplikacja klienta mobilnego robota mobot explorer A1 firmy mobot.pl.
+
+Zastępuje domyślną dostarczaną przez firmę platormę działającą tylko pod Windows
+klientem napisanym w pythonie nadającym się do uruchomienia w Linuksie.
+
+
+Mobot Explorer A1
+http://mobot.pl/index.php?site=products&type=855&details=7998
+
+Moduł radiowy do komunikacji z robotem:
+    W postaci dongla USB:
+	http://mobot.pl/index.php?site=products&type=853&details=7770
+
+    Dla robota:
+	http://mobot.pl/index.php?site=products&type=853&details=7771
+
+Framework QT:
+    http://qt.nokia.com/
