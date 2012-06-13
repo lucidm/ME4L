@@ -1,10 +1,18 @@
 Aplikacja klienta mobilnego robota mobot explorer A1 firmy mobot.pl.
 
-Zastępuje domyślną dostarczaną przez firmę platormę działającą tylko pod Windows
-klientem napisanym w pythonie nadającym się do uruchomienia w Linuksie.
-Platforma mobilna składa się z płytki mikrokontrolera AVR Atmega128 z dwoma mostkami
-MC33887, układem zasilania i ładowania akumulatorów żelowych zasilających platformę.
-Trzema sonarowymi czujnikami mierzącymi odległość, radiowym modułem komunikacyjnym z
+Oprogramowanie powstało jako wolna i otwarta alternatywa dla dostarczanego
+przez producenta platformy oprogramowania klienta sterującego robotem, które
+dostępne jest tylko w formie skompilowanej i tylko dla Windows.
+Na stronie producenta dostępny jest firmware oraz jego kod źródłowy, który realizuje
+protokół komunikacji zaimplementowany w niniejszym oprogramowaniu.
+Zmiany w firmware, wymagają oczywiście odpowiednich zmian w kliencie, w przyszłości zaś
+planowane jest rozdzielenie opisu protokołu od klienta, dzięki czemu da się łatwo i bez znaczących
+modyfikacji kodu implementować rozszerzenia protokołu lub bardziej złożone sekwencje ruchu za pomocą
+minimalnego zestawu komend wysłanych do robota.
+
+Platforma mobilna robota składa się z płytki mikrokontrolera AVR Atmega128 z dwoma mostkami
+H zrealizowanymi na układach MC33887, układem zasilania i ładowania akumulatorów żelowych zasilających platformę,
+trzema sonarowymi czujnikami mierzącymi odległość, radiowym modułem komunikacyjnym z emulowanym
 portem szeregowym, pracującym w paśmie 868Mhz na USB oraz z interfejsem szeregowym dla
 sterownika platformy.
 
